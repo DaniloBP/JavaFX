@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SliderController">
+   <children>
+      <VBox prefHeight="240.0" prefWidth="500.0">
+         <children>
+            <JFXSlider fx:id="red" indicatorPosition="RIGHT" majorTickUnit="15.0" max="255.0" showTickLabels="true" showTickMarks="true" value="120.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="50.0" />
+               </VBox.margin>
+            </JFXSlider>
+            <JFXSlider fx:id="green" indicatorPosition="RIGHT" majorTickUnit="15.0" max="255.0" showTickLabels="true" showTickMarks="true" value="120.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="30.0" />
+               </VBox.margin>
+            </JFXSlider>
+            <JFXSlider fx:id="blue" indicatorPosition="RIGHT" majorTickUnit="15.0" max="255.0" showTickLabels="true" showTickMarks="true" value="120.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" right="10.0" top="30.0" />
+               </VBox.margin>
+            </JFXSlider>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

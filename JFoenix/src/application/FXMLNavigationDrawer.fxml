@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NavigationDrawerController">
+   <children>
+      <JFXHamburger fx:id="hamburger" layoutX="556.0" layoutY="14.0" stylesheets="@application.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXHamburger>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" direction="RIGHT" layoutX="428.0" layoutY="50.0" prefHeight="400.0" prefWidth="172.0" />
+   </children>
+</AnchorPane>
